@@ -10,7 +10,6 @@ z=0
 
 while True:
     n=int(input("Porfavor ingresa un numero mayor a 1 (presione 0 para salir): "))
-    
     if n==0:
         print("Hasta luego")
         break
@@ -22,4 +21,5 @@ while True:
             print(f"{z}",end=" ")
             x=y
             y=z
+        break
 print("")
